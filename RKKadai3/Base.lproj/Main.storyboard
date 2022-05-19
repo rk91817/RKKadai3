@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -137,13 +137,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="firstSignedLabel" destination="8CT-tT-ua8" id="F1d-Ii-wyd"/>
                         <outlet property="firstSwitch" destination="Hq5-GV-xYw" id="xA3-q5-Aic"/>
                         <outlet property="firstTextField" destination="AQh-8H-eFo" id="B3e-2y-HdO"/>
-                        <outlet property="firstTextLabel" destination="8CT-tT-ua8" id="F1d-Ii-wyd"/>
                         <outlet property="resultLabel" destination="0tI-WS-DNg" id="CQE-0X-Iwj"/>
+                        <outlet property="secondSignedLabel" destination="K5o-3L-lrd" id="ldW-wg-uW8"/>
                         <outlet property="secondSwitch" destination="JnR-Rc-39V" id="VEw-gC-Gls"/>
                         <outlet property="secondTextField" destination="0b4-Vk-uhM" id="l0z-ri-peT"/>
-                        <outlet property="secondTextLabel" destination="K5o-3L-lrd" id="ldW-wg-uW8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
