@@ -137,13 +137,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="firstSignedLabel" destination="8CT-tT-ua8" id="gQn-1e-Bf3"/>
                         <outlet property="firstSwitch" destination="Hq5-GV-xYw" id="xA3-q5-Aic"/>
                         <outlet property="firstTextField" destination="AQh-8H-eFo" id="B3e-2y-HdO"/>
-                        <outlet property="firstTextLabel" destination="8CT-tT-ua8" id="F1d-Ii-wyd"/>
                         <outlet property="resultLabel" destination="0tI-WS-DNg" id="CQE-0X-Iwj"/>
+                        <outlet property="secondSignedLabel" destination="K5o-3L-lrd" id="OUS-9M-kU3"/>
                         <outlet property="secondSwitch" destination="JnR-Rc-39V" id="VEw-gC-Gls"/>
                         <outlet property="secondTextField" destination="0b4-Vk-uhM" id="l0z-ri-peT"/>
-                        <outlet property="secondTextLabel" destination="K5o-3L-lrd" id="ldW-wg-uW8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
